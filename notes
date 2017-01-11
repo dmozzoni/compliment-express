@@ -1,0 +1,10 @@
+mkdir hello-express
+cd hello-express
+npm init -y
+npm install --save express
+npm install --save hbs
+app.set("view engine", "hbs");
+mkdir views
+touch views/index.hbs
+touch views/layout.hbs
+mkdir controllers
